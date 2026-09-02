@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Construction 3D Configurator",
+    "slug": "construction-3d-configurator",
+    "version": "1.0.14",
+    "orientation": "default",
+    "userInterfaceStyle": "dark",
+    "android": {
+      "package": "com.example.construction3d",
+      "versionCode": 14
+    },
+    "ios": {
+      "bundleIdentifier": "com.example.construction3d",
+      "supportsTablet": true
+    },
+    "plugins": ["expo-asset"],
+    "assetBundlePatterns": ["assets/**/*"]
+  }
+}

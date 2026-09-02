@@ -1,0 +1,31 @@
+{
+  "name": "construction-3d-configurator",
+  "version": "1.0.14",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@react-three/drei": "^10.7.8",
+    "@react-three/fiber": "^9.7.0",
+    "expo": "~57.0.18",
+    "expo-asset": "~57.0.15",
+    "expo-gl": "~57.0.2",
+    "expo-status-bar": "~57.0.1",
+    "react": "19.2.3",
+    "react-native": "0.86.3",
+    "three": "^0.185.1",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.2",
+    "@types/three": "^0.185.0",
+    "babel-preset-expo": "~57.0.9",
+    "typescript": "~6.0.3"
+  }
+}
